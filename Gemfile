@@ -17,6 +17,8 @@ gem 'rails_12factor', group: :production
 gem 'puma', '~> 3.0'
 gem 'bootstrap-sass'
 
+# stripe for taking payments
+gem 'stripe', :git =>'https://github.com/stripe/stripe-ruby'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
